@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário no HTML</title>
+</head>
+<body>
+    <h1>Formulário no HTML</h1>
+    <form>
+
+<label for="nome">Nome</label>
+<input type="text" id="nome" name="nome" required> <br>
+
+<label for="password">Senha</label>
+<input type="password" id="password" name="password" required>
+
+<label for="idade">Idade</label>  <br>
+<input type="number" id="idade" name="idade">
+
+<label for="file">Envie seu arquivo</label> <br>
+<input type="file" id="file" name="file">
+<label for="date">Data</label> <br>
+<input type="date" id="date" name="data">
+<label for="email">Email</label> <br>
+<input type="email" id="email" name="email" required>
+ <label for="gender">Genero</label> <br>
+ <select name="gender" id="gender">
+<option value="female">Feminino</option>
+<option value="male">Masculino</option>
+<option value="other">Outros</option>
+
+ </select>
+<br>
+<fieldset>
+<legend>Escolha uma cor </legend>
+<input type="radio" id="red" name="color" value="red">
+<label for="red">vermelho</label>
+<input type="radio" id="green" name="color" value="green">
+<label for="green">verde</label>
+<input type="radio" id="yellow" name="color" value="yellow">
+<label for="yellow">amarelo</label>
+</fieldset>
+
+<br>
+<label for="search">Busca</label>
+<input type="text"  id="search" name="search" placeholder="digite aqui">
+
+<br>
+<fieldset>
+
+    <legend> Escolha seus livros favoritos</legend>
+
+    <input type="checkbox" id="livro1" name="livro1">
+    <label for="livro1">Livro1</label>
+
+    <input type="checkbox" id="livro2" name="livro2">
+    <label for="livro1">Livro2</label>
+
+    <input type="checkbox" id="livro3" name="livro3">
+    <label for="livro1">Livro3</label>
+</fieldset>
+
+
+<br>
+
+<button type="submit">Enviar</button>
+
+
+
+    </form>
+</body>
+</html>
